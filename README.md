@@ -44,8 +44,8 @@ The design was developed and simulated using **Xilinx Vivado** as part of a Comp
 
 - 5-stage pipelined RISC-V processor
 - Verilog HDL implementation
-- Hazard Detection Unit
-- Forwarding Unit
+- Hazard Detection Unit for load-use hazards
+- Forwarding Unit to reduce pipeline stalls
 - Pipeline Registers
 - Branch handling
 - Instruction Fetch (IF)
@@ -54,7 +54,12 @@ The design was developed and simulated using **Xilinx Vivado** as part of a Comp
 - Memory Access (MEM)
 - Write Back (WB)
 - Simulation in Xilinx Vivado
+- ## 🏗️ Block Diagram
+
+The following block diagram illustrates the overall architecture of the 5-stage pipelined RISC-V processor.
+
 ![Block Diagram](images/block_diagram.png)
+
 ---
 
 ## 📐 RTL Schematic

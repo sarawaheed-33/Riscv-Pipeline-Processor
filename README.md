@@ -23,3 +23,16 @@ The design was developed and simulated using **Xilinx Vivado** as part of a Comp
 - Write Back (WB)
 - Simulation in Xilinx Vivado
 ![Block Diagram](images/block_diagram.png)
+---
+
+## 📐 RTL Schematic
+
+The RTL schematic generated in Xilinx Vivado illustrates the structural organization of the pipelined processor and the interconnection of its hardware modules.
+
+### RTL Schematic (Part 1)
+
+![RTL Schematic Part 1](images/rtl_schematic-1.png)
+
+### RTL Schematic (Part 2)
+
+![RTL Schematic Part 2](images/rtl_schematic-2.png)

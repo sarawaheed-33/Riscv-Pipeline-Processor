@@ -36,3 +36,24 @@ The RTL schematic generated in Xilinx Vivado illustrates the structural organiza
 ### RTL Schematic (Part 2)
 
 ![RTL Schematic Part 2](images/rtl_schematic-2.png)
+---
+
+## 📊 Simulation Waveforms
+
+The following simulation waveforms were generated using **Xilinx Vivado** to verify the functionality of the pipelined RISC-V processor. These waveforms demonstrate correct instruction execution, pipeline register operation, hazard handling, and write-back behavior.
+
+### Waveform 1
+
+![Waveform 1](images/waveform-1.png)
+
+### Waveform 2
+
+![Waveform 2](images/waveform-2.png)
+
+### Waveform 3
+
+![Waveform 3](images/waveform-3.png)
+
+### Waveform 4
+
+![Waveform 4](images/waveform-4.png)

@@ -118,3 +118,12 @@ The processor follows the classic **5-stage RISC-V pipeline** to improve instruc
 ### 5. Write Back (WB)
 - Writes the final result back to the destination register.
 - The result may come from either the ALU or the Data Memory depending on the instruction type.
+---
+
+## 🛠️ Tools Used
+
+- **Verilog HDL** – Hardware description language used to design the processor.
+- **Xilinx Vivado** – Design, simulation, and RTL schematic generation.
+- **Git** – Version control.
+- **GitHub** – Source code hosting and project documentation.
+- **Visual Studio Code** – Source code editor.

@@ -156,3 +156,10 @@ git clone https://github.com/sarawaheed-33/Riscv-Pipeline-Processor.git
 - Introduce instruction and data caches.
 - Optimize hazard handling techniques.
 - Implement performance monitoring counters.
+---
+
+## 👩‍💻 Author
+
+**Sara Waheed**
+
+- GitHub: https://github.com/sarawaheed-33

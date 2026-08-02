@@ -1,4 +1,14 @@
-# RISC-V Pipeline Processor
+<p align="center">
+  <img src="images/block_diagram.png" width="850">
+</p>
+
+<h1 align="center">
+RISC-V Pipeline Processor
+</h1>
+
+<p align="center">
+A 5-Stage Pipelined RISC-V Processor in Verilog HDL
+</p>
 
 ## 📖 Project Overview
 

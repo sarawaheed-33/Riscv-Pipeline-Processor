@@ -89,3 +89,32 @@ RISCV-Pipeline-Processor/
 ├── write_back.v                # Write Back stage
 └── README.md                   # Project documentation
 ```
+---
+
+## ⚙️ Pipeline Stages
+
+The processor follows the classic **5-stage RISC-V pipeline** to improve instruction throughput by executing multiple instructions simultaneously.
+
+### 1. Instruction Fetch (IF)
+- Fetches the instruction from instruction memory.
+- Updates the Program Counter (PC) to the next instruction.
+
+### 2. Instruction Decode (ID)
+- Decodes the fetched instruction.
+- Reads source operands from the Register File.
+- Generates the immediate value and control signals.
+
+### 3. Execute (EX)
+- Performs arithmetic and logical operations using the ALU.
+- Calculates memory addresses for load/store instructions.
+- Evaluates branch conditions.
+- Uses the Forwarding Unit to resolve data hazards whenever possible.
+
+### 4. Memory Access (MEM)
+- Reads data from memory for load instructions.
+- Writes data to memory for store instructions.
+- Passes ALU results for instructions that do not access memory.
+
+### 5. Write Back (WB)
+- Writes the final result back to the destination register.
+- The result may come from either the ALU or the Data Memory depending on the instruction type.

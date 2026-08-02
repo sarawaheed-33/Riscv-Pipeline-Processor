@@ -22,3 +22,4 @@ The design was developed and simulated using **Xilinx Vivado** as part of a Comp
 - Memory Access (MEM)
 - Write Back (WB)
 - Simulation in Xilinx Vivado
+![Block Diagram](images/block_diagram.png)

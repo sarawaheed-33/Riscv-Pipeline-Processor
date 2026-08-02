@@ -163,3 +163,8 @@ git clone https://github.com/sarawaheed-33/Riscv-Pipeline-Processor.git
 **Sara Waheed**
 
 - GitHub: https://github.com/sarawaheed-33
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the LICENSE file for details.

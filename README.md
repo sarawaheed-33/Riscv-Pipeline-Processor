@@ -9,7 +9,29 @@ RISC-V Pipeline Processor
 <p align="center">
 A 5-Stage Pipelined RISC-V Processor in Verilog HDL
 </p>
+<p align="center">
 
+![Verilog](https://img.shields.io/badge/Language-Verilog-blue)
+![Vivado](https://img.shields.io/badge/Tool-Xilinx%20Vivado-red)
+![RISC-V](https://img.shields.io/badge/Architecture-RISC--V-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+</p>
+## 📑 Table of Contents
+
+- [Project Overview](#-project-overview)
+- [Features](#-features)
+- [Block Diagram](#block-diagram)
+- [RTL Schematic](#-rtl-schematic)
+- [Simulation Waveforms](#-simulation-waveforms)
+- [Results](#-results)
+- [Project Structure](#-project-structure)
+- [Pipeline Stages](#-pipeline-stages)
+- [Tools Used](#-tools-used)
+- [How to Run](#-how-to-run)
+- [Future Improvements](#-future-improvements)
+- [License](#-license)
+- [Author](#-author)
 ## 📖 Project Overview
 
 This project implements a **5-stage pipelined RISC-V processor** in **Verilog HDL**. The processor executes RISC-V instructions using the classic pipeline stages and incorporates hazard detection and forwarding techniques to improve execution efficiency while maintaining correct program behavior.

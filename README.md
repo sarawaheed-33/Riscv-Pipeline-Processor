@@ -57,3 +57,35 @@ The following simulation waveforms were generated using **Xilinx Vivado** to ver
 ### Waveform 4
 
 ![Waveform 4](images/waveform-4.png)
+---
+
+## 📂 Project Structure
+
+```text
+RISCV-Pipeline-Processor/
+│
+├── images/                     # README images
+├── ALU.v                       # Arithmetic Logic Unit
+├── ALUControl.v                # ALU control logic
+├── ControlUnit.v               # Main control unit
+├── Data.hex                    # Data memory initialization
+├── Program.hex                 # Instruction memory initialization
+├── RamSp.sv                    # Single-port RAM
+├── RegisterFile.v              # Register file
+├── execute.v                   # Execute stage
+├── forwarding_mux.v            # Forwarding multiplexer
+├── forwarding_unit.v           # Data forwarding unit
+├── hazard_detection.v          # Hazard detection unit
+├── immediateGenerator.v        # Immediate value generator
+├── instructionDecoder.v        # Instruction decoder
+├── instruction_decode.v        # Instruction Decode stage
+├── instruction_fetch.v         # Instruction Fetch stage
+├── memory_stage.v              # Memory stage
+├── pipeline_register.v         # Pipeline registers
+├── programCounter.v            # Program counter
+├── Memory.v                    # Data memory module
+├── riscv_pipeline_top.v        # Top-level processor
+├── riscv_tb.v                  # Testbench
+├── write_back.v                # Write Back stage
+└── README.md                   # Project documentation
+```

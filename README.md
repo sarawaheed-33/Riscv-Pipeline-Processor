@@ -127,3 +127,23 @@ The processor follows the classic **5-stage RISC-V pipeline** to improve instruc
 - **Git** – Version control.
 - **GitHub** – Source code hosting and project documentation.
 - **Visual Studio Code** – Source code editor.
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/sarawaheed-33/Riscv-Pipeline-Processor.git
+```
+
+2. Open the project in **Xilinx Vivado**.
+
+3. Add all Verilog source files and memory initialization files (`Program.hex`, `Data.hex`).
+
+4. Set **`riscv_tb.v`** as the simulation top module.
+
+5. Run **Behavioral Simulation**.
+
+6. Observe the pipeline execution using the provided waveform screenshots for comparison.
+```

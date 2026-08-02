@@ -147,3 +147,12 @@ git clone https://github.com/sarawaheed-33/Riscv-Pipeline-Processor.git
 
 6. Observe the pipeline execution using the provided waveform screenshots for comparison.
 ```
+---
+
+## 🌟 Future Improvements
+
+- Add support for additional RISC-V instructions.
+- Improve branch prediction.
+- Introduce instruction and data caches.
+- Optimize hazard handling techniques.
+- Implement performance monitoring counters.

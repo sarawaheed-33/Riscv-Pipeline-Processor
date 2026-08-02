@@ -68,7 +68,18 @@ The following simulation waveforms were generated using **Xilinx Vivado** to ver
 
 ![Waveform 4](images/waveform-4.png)
 ---
+---
 
+## 📈 Results
+
+Simulation results confirm the correct functionality of the pipelined processor, including:
+
+- Successful execution of arithmetic and logical instructions
+- Correct load and store operations
+- Proper register write-back
+- Data hazard resolution through forwarding
+- Hazard detection and pipeline stalling when required
+- Correct pipeline stage operation verified through simulation waveforms
 ## 📂 Project Structure
 
 ```text
@@ -140,24 +151,32 @@ The processor follows the classic **5-stage RISC-V pipeline** to improve instruc
 ---
 
 ## 🚀 How to Run
+### Prerequisites
 
-1. Clone the repository:
+- Xilinx Vivado
+- Verilog HDL support
+- Git (optional for cloning)
+
+### Steps
+
+1. Clone the repository.
 
 ```bash
 git clone https://github.com/sarawaheed-33/Riscv-Pipeline-Processor.git
 ```
 
-2. Open the project in **Xilinx Vivado**.
+2. Open the project in Xilinx Vivado.
 
-3. Add all Verilog source files and memory initialization files (`Program.hex`, `Data.hex`).
+3. Add all Verilog source files.
 
-4. Set **`riscv_tb.v`** as the simulation top module.
+4. Load:
 
-5. Run **Behavioral Simulation**.
+- Program.hex
+- Data.hex
 
-6. Observe the pipeline execution using the provided waveform screenshots for comparison.
-```
----
+5. Set `riscv_tb.v` as the simulation top.
+
+6. Run Behavioral Simulation.
 
 ## 🌟 Future Improvements
 
